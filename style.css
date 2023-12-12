@@ -1,0 +1,197 @@
+body {
+    margin: 0;     /*! чтобы не было белых полос по краям картинки !*/
+
+}
+
+.container {
+    margin: 0px 100px; /*! отступ логотипа !*/
+}
+
+.header {
+    background-image: url(back.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.line {
+    padding-top: 10px; /*! отступ строки меню сверху !*/
+    display: flex; /*! растнуть элементы строки меню по горизонтали !*/
+    align-items: center;
+
+}
+
+.navi-item {    /*! navi-item - класс для всех элементов нави, чтобы изменять их цвет и т/д/!*/
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;   /*!убираем подчеркивание!*/
+    margin-right: 30px;  /*!удаленность элементов друг от друга!*/
+
+}
+
+.navi-item1 {    /*! navi-item - класс для всех элементов нави, чтобы изменять их цвет и т/д/!*/
+    color: #D7E837;
+    font-size: 20px;
+    text-decoration: none;   /*!убираем подчеркивание!*/
+    margin-right: 30px;  /*!удаленность элементов друг от друга!*/
+
+}
+
+.navi-item:hover {  /*! то что происходит с элементами при наведении мышки!*/
+    color:#999;
+}
+
+.navi-item1:hover {  /*! то что происходит с элементами при наведении мышки!*/
+    color:#999;
+}
+
+.pos-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pos-text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.position {
+    background-color: #999;
+    width: 30%;    /*!либо можно указать в пикселях (п:350рх)!*/
+    margin-right: 30px;
+
+}
+
+.upline {
+    margin-right: 30 px;
+
+}
+
+
+.upline-text {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 80px;
+
+}
+
+
+.pos-line {
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+
+.downline {
+    margin-right: 30 px;
+    background-color: #F7C352;
+
+}
+
+
+.downline-text {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+
+.contacts {
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+
+.contact1 {
+    display: flex;
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+
+.contact2 {
+    display: flex;
+    font-size: 30px;
+    padding-top: 50px 0px 20px;
+    margin-left: 800px;
+
+}
+
+
+/*! 2.html !*/
+
+
+.sections {
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.section-1 {
+    padding-top: 10px; /*! отступ строки меню сверху !*/
+    display: flex; /*! растнуть элементы строки меню по горизонтали !*/
+    align-items: center;
+
+}
+
+.section-2 {
+    padding-top: 10px; /*! отступ строки меню сверху !*/
+    display: flex; /*! растнуть элементы строки меню по горизонтали !*/
+    align-items: center;
+
+}
+
+.section-1-text {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+.sec-line {
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+
+.section {
+    background-color: #999;
+    width: 30%;    /*!либо можно указать в пикселях (п:350рх)!*/
+    margin-right: 30px;
+
+}
+
+.sec-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sec-text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.introduction {
+    font-size: 20px;
+
+}
+
+.tabl {
+    background-image: url(fon.jpeg);
+
+}
